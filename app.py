@@ -21,3 +21,5 @@ app = Flask(__name__)
 def browse():
     return "WELCOME  TO   INDIA"
 
+if __name__=="__main__":
+    app.run(debug=True)
